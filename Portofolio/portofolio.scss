@@ -1,0 +1,64 @@
+
+body{
+    padding:0px;
+    margin:0px;
+    background-image: url("img/background.png");
+}
+.navbar{
+    width:100%;
+    height:100px;
+    background-color: white;
+    img{
+        margin:15px 0px 0px 25px;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        margin-top:-25px;
+        font-size:45px;
+        font-family:Arial;
+        letter-spacing: 1.5px;
+        text-shadow: 1px 1px;
+    }
+}
+    .column1{
+        height: 100%;
+        width:55%;
+        display:grid;
+        grid-template-columns: auto ;
+        float: left;
+        img{
+        cursor: pointer;
+        margin-left:50px;
+        margin-top:100px;
+        width:775px;
+        height:525px;
+        transition: 1s ease-in-out;
+        &:hover{
+            width:815px;
+            height:545px;
+        }
+        } 
+    }
+    .column2
+    {   
+        height:100%;
+        width:45%;
+        display:grid;
+        grid-template-columns: auto ;
+        float: left;
+        margin-top:190px;
+        margin-bottom:20px;
+        img{
+        cursor:pointer;
+        margin-top: 100px;
+        width:775px;
+        height:525px;
+        transition: 1s ease-in-out;
+           &:hover{
+            width:815px;
+            height:545px;
+           }
+        } 
+    }
+@import"./phone-responsive";

@@ -1,0 +1,809 @@
+body {
+  padding: 0x;
+  margin: 0px;
+}
+
+.navbar {
+  height: 90px;
+  width: 100%;
+}
+
+.navbar img {
+  margin: 25px 0px 0px 200px;
+}
+
+.navbar .navbar-items {
+  float: right;
+  list-style: none;
+  margin-right: 250px;
+}
+
+.navbar .navbar-items ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar .navbar-items li {
+  list-style: none;
+  padding: 40px 0px 0px 45px;
+}
+
+.navbar .navbar-items a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Montserrat";
+  color: #707070;
+  line-height: 1.2;
+}
+
+.navbar .navbar-items .home {
+  color: #00c7fc;
+}
+
+.slider-container {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-container .slides {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 700px;
+}
+
+.slider-container .slides img {
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+
+.slider-container p {
+  text-transform: uppercase;
+  position: absolute;
+  top: 245px;
+  left: 800px;
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: white;
+  line-height: 1.2;
+}
+
+.slider-container h1 {
+  text-transform: uppercase;
+  position: absolute;
+  left: 550px;
+  top: 270px;
+  font-size: 50px;
+  font-family: "Montserrat";
+  color: white;
+  line-height: 1.2;
+}
+
+.slider-container .prevBtn {
+  cursor: pointer;
+  text-transform: uppercase;
+  position: absolute;
+  left: 770px;
+  top: 425px;
+  height: 50px;
+  width: 155px;
+  border-radius: 6px;
+  background-color: transparent;
+  color: white;
+}
+
+.slider-container .getTheme {
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 0px;
+  position: absolute;
+  left: 960px;
+  top: 425px;
+  height: 50px;
+  width: 155px;
+  background-color: #00c7fc;
+  border-radius: 6px;
+  color: white;
+}
+
+.slider-container .down-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 650px;
+  left: 926px;
+}
+
+.history-container {
+  position: relative;
+  margin-top: 0px;
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 530px;
+}
+
+.history-container div {
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 130px;
+  font-size: 25px;
+  font-family: "Montserrat";
+  color: #231f20;
+  line-height: 1.2;
+}
+
+.history-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 45px;
+}
+
+.history-container p {
+  padding-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  font-family: "CrimsonText";
+  color: #637988;
+  line-height: 1.667;
+  white-space: pre;
+}
+
+.rectangles {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rectangles .first-rectangle {
+  width: 320px;
+  height: 500px;
+  background-color: black;
+}
+
+.rectangles .white-rectangle {
+  width: 320px;
+  height: 500px;
+  background-color: white;
+}
+
+.rectangles .second-rectangle {
+  width: 320px;
+  height: 500px;
+  background-color: black;
+}
+
+.rectangles .second-rectangle .blue-rectangle {
+  width: 320px;
+  height: 350px;
+  background-color: #00c7fc;
+  margin-top: 150px;
+}
+
+.rectangles .second-rectangle .blue-rectangle p {
+  padding-top: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  line-height: 1.667;
+  white-space: pre;
+  font-size: 15px;
+  font-family: "CrimsonText";
+  color: white;
+}
+
+.rectangles .second-rectangle .blue-rectangle div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: white;
+  line-height: 1.2;
+  padding-top: 75px;
+}
+
+.rectangles .second-rectangle .blue-rectangle .facebook-icon {
+  padding: 35px 0px 0px 130px;
+}
+
+.rectangles .second-rectangle .blue-rectangle .twitter-icon {
+  padding: 35px 0px 0px 35px;
+}
+
+.rectangles .third-rectangle {
+  width: 320px;
+  height: 500px;
+  background-color: black;
+}
+
+.services {
+  width: 100%;
+  background-color: #f4f4f4;
+  height: 680px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services .idea-rectangle {
+  width: 380px;
+  height: 390px;
+  background-color: white;
+  margin-right: 40px;
+}
+
+.services .idea-rectangle img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services .idea-rectangle .pen {
+  padding-top: 45px;
+}
+
+.services .idea-rectangle .separator {
+  padding-top: 25px;
+}
+
+.services .idea-rectangle h1 {
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: #231f20;
+  line-height: 1.2;
+  letter-spacing: 1.5px;
+}
+
+.services .idea-rectangle p {
+  padding-top: 25px;
+  text-align: center;
+  line-height: 1.667;
+  white-space: pre;
+  font-size: 15px;
+  font-family: "CrimsonText";
+  color: #637988;
+}
+
+.services .work-rectangle {
+  width: 380px;
+  height: 390px;
+  background-color: white;
+  margin-right: 40px;
+}
+
+.services .work-rectangle img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services .work-rectangle .plug {
+  padding-top: 45px;
+}
+
+.services .work-rectangle .separator {
+  padding-top: 25px;
+}
+
+.services .work-rectangle h1 {
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: #231f20;
+  line-height: 1.2;
+  letter-spacing: 1.5px;
+}
+
+.services .work-rectangle p {
+  padding-top: 25px;
+  text-align: center;
+  line-height: 1.667;
+  white-space: pre;
+  font-size: 15px;
+  font-family: "CrimsonText";
+  color: #637988;
+}
+
+.services .deliver-rectangle {
+  width: 380px;
+  height: 390px;
+  background-color: white;
+}
+
+.services .deliver-rectangle img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services .deliver-rectangle .pc {
+  padding-top: 45px;
+}
+
+.services .deliver-rectangle .separator {
+  padding-top: 25px;
+}
+
+.services .deliver-rectangle h1 {
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: #231f20;
+  line-height: 1.2;
+  letter-spacing: 1.5px;
+}
+
+.services .deliver-rectangle p {
+  padding-top: 25px;
+  text-align: center;
+  line-height: 1.667;
+  white-space: pre;
+  font-size: 15px;
+  font-family: "CrimsonText";
+  color: #637988;
+}
+
+.clients {
+  height: 720px;
+  width: 100%;
+}
+
+.clients div {
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 130px;
+  font-size: 25px;
+  font-family: "Montserrat";
+  color: #231f20;
+  line-height: 1.2;
+}
+
+.clients .separator {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+}
+
+.clients .quote {
+  padding-top: 20px;
+  text-align: center;
+  line-height: 1.667;
+  white-space: pre;
+  font-size: 15px;
+  font-family: "CrimsonText";
+  color: #231f20;
+}
+
+.clients .author {
+  font-size: 15px;
+  font-family: "CrimsonText";
+  color: #999999;
+  font-style: italic;
+  line-height: 1.667;
+  text-align: center;
+}
+
+.clients nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 100px;
+  margin-left: 200px;
+}
+
+.clients nav img {
+  margin-right: 170px;
+}
+
+.contact-us {
+  width: 100%;
+  height: 600px;
+  background-color: #101012;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-us .about {
+  margin-right: 40px;
+  width: 550px;
+  height: 490px;
+  border: 1px solid;
+  border-color: #707070;
+}
+
+.contact-us .about div {
+  padding-top: 80px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Montserrat";
+  color: white;
+  line-height: 1.2;
+}
+
+.contact-us .about img {
+  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-us .about p {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 15px;
+  font-family: "CrimsonText";
+  color: white;
+  line-height: 1.667;
+  white-space: pre;
+}
+
+.contact-us .contact {
+  margin-right: 40px;
+  border: 1px solid;
+  border-color: #707070;
+  width: 550px;
+  height: 490px;
+}
+
+.contact-us .contact div {
+  padding-top: 80px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Montserrat";
+  color: white;
+  line-height: 1.2;
+}
+
+.contact-us .contact .email {
+  display: block;
+  padding-top: 15px;
+  padding-left: 70px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: white;
+  line-height: 1.2;
+}
+
+.contact-us .contact .email-input {
+  margin-left: 70px;
+  margin-top: 15px;
+  width: 405px;
+  border: none;
+  height: 20px;
+  background-color: #101012;
+  color: white;
+  border-bottom: 1px solid white;
+  -webkit-box-sizing: none;
+          box-sizing: none;
+}
+
+.contact-us .contact .message {
+  display: block;
+  padding-top: 60px;
+  padding-left: 70px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: white;
+  line-height: 1.2;
+}
+
+.contact-us .contact .message-input {
+  margin-left: 70px;
+  margin-top: 20px;
+  border: none;
+  background-color: #101012;
+  color: white;
+  border-bottom: 1px solid white;
+  -webkit-box-sizing: none;
+          box-sizing: none;
+}
+
+.contact-us .contact button {
+  text-transform: uppercase;
+  border: none;
+  background-color: #101012;
+  color: #00c7fc;
+  font-size: 17px;
+  font-family: "Montserrat";
+  letter-spacing: 1px;
+  margin-top: 35px;
+  margin-left: 425px;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  height: 125px;
+  background-color: #00c7fc;
+}
+
+.footer div {
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: white;
+  line-height: 1.5;
+  padding: 50px 0px 0px 350px;
+}
+
+.footer nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  float: right;
+  margin-right: 340px;
+}
+
+.footer nav img {
+  position: relative;
+  top: -20px;
+  padding-right: 50px;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 35px;
+  right: 25px;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 31px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #00c7fc;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .navbar .toggle-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar .navbar-items {
+    display: none;
+    width: 100%;
+  }
+  .navbar .navbar-items ul {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 6%;
+  }
+  .navbar .navbar-items ul li {
+    text-align: center;
+    padding: 0px 0px 15px 0px;
+  }
+  .navbar .navbar-items.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .slider-container {
+    width: 100%;
+  }
+  .slider-container .slides {
+    width: 100%;
+  }
+  .slider-container .slides img {
+    width: 100%;
+    height: auto;
+  }
+  .slider-container p {
+    position: absolute;
+    top: 240px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .slider-container h1 {
+    position: absolute;
+    top: 260px;
+    left: 3%;
+    text-align: center;
+  }
+  .slider-container .prevBtn {
+    position: absolute;
+    left: 25%;
+    top: 480px;
+  }
+  .slider-container .getTheme {
+    position: absolute;
+    left: 53%;
+    top: 480px;
+  }
+  .slider-container .down-icon {
+    position: absolute;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+  .history-container p {
+    white-space: normal;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .rectangles .first-rectangle {
+    width: 12.5%;
+  }
+  .rectangles .white-rectangle {
+    display: none;
+  }
+  .rectangles .third-rectangle {
+    width: 12.5%;
+  }
+  .rectangles .second-rectangle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .services {
+    display: -ms-grid;
+    display: grid;
+    height: 100%;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+  .services .idea-rectangle {
+    width: 110%;
+    border-bottom: 1px solid gray;
+  }
+  .services .work-rectangle {
+    width: 110%;
+    border-bottom: 1px solid gray;
+  }
+  .services .deliver-rectangle {
+    width: 110%;
+    border-bottom: 1px solid gray;
+  }
+  .clients .quote {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: normal;
+    width: 90%;
+  }
+  .clients nav {
+    margin: 0px;
+  }
+  .clients nav img {
+    margin: 0px 0px 0px 28px;
+  }
+  .contact-us {
+    display: -ms-grid;
+    display: grid;
+    height: 100%;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+  .contact-us .about {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-us .contact {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer {
+    height: 90px;
+  }
+  .footer div {
+    padding: 35px 0px 0px 50px;
+  }
+  .footer nav {
+    margin-right: 0px;
+    padding-top: 1px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

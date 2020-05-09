@@ -1,0 +1,41 @@
+@media only screen and (max-width: 768px)
+{
+        .navbar{
+            img{
+                margin:3px;
+            }
+            h1{
+                font-size: 30px;
+                margin-top:0px;
+            }
+    }
+    .column1{
+        width:100%;
+        img{
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+         width:90%;
+         height: auto;
+         &:hover{
+            width:90%;
+            height: auto;
+         }
+        }
+    }
+    .column2{
+        width:100%;
+        margin-top:0px;
+        img{
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+         width:90%;
+         height: auto;
+         &:hover{
+            width:90%;
+            height: auto;
+         }
+        }
+    }
+}

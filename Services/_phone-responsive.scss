@@ -1,0 +1,26 @@
+@media only screen and (max-width: 768px)
+{
+    .navbar{
+        img{
+            margin:3px;
+        }
+        h1{
+            font-size: 22px;
+            margin-top:5px;
+        }
+    }
+    .grid{
+    grid-template-columns: auto;
+    justify-content: center;
+    }
+    .footer{
+        height: 90px;
+        div{
+            padding:35px 0px 0px 10px;
+        }
+        nav{
+            margin-right:0px;
+            padding-top:1px;
+        }
+    }
+}

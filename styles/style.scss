@@ -1,0 +1,428 @@
+@import"./variables";
+@import"./mixins";
+body{
+    padding:0x;
+    margin:0px;
+}
+.navbar{
+    height:90px;
+    width:100%;
+    img{
+        margin:25px 0px 0px 200px;
+    }
+    .navbar-items{
+        float:right;
+        list-style: none;
+        margin-right:250px;
+        ul{
+            display:flex;
+            margin:0px;
+            padding:0px;
+        }
+        li {
+            list-style: none;
+            padding:40px 0px 0px 45px;  
+        }
+        a{
+            text-decoration: none;
+            font-size: 16px;
+            font-family: "Montserrat";
+            color: $gray;
+            line-height: 1.2;
+        }
+        .home{
+            color: $blue-color;
+        }
+    }
+}
+.slider-container{
+    width:100%;
+    height:700px;
+    overflow: hidden;
+    position:relative;
+    .slides{
+        display: flex;
+        width: 100%;
+        height: 700px;
+        img{
+            position:relative;
+            width: 100%;
+            height: 700px;
+        }
+    }
+    p{
+        text-transform: uppercase;
+        position:absolute;
+        top:245px;
+        left:800px;
+        font-size: 15px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+    }
+    h1{
+        text-transform: uppercase;
+        position: absolute;
+        left:550px;
+        top:270px;
+        font-size: 50px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+    }
+    .prevBtn{
+        cursor: pointer;
+        text-transform: uppercase;
+        position: absolute;
+        left:770px;
+        top:425px;
+        height:50px;
+        width:155px;
+        border-radius: 6px;
+        background-color:transparent;
+        color:white;
+    }
+    .getTheme
+    {   
+        cursor:pointer;
+        text-transform: uppercase;
+        border:0px;
+        position: absolute;
+        left:960px;
+        top:425px;
+        height:50px;
+        width:155px;
+        background-color:$blue-color;
+        border-radius: 6px;
+     color:white;
+    }
+    .down-icon{
+        cursor:pointer;
+        position: absolute;
+        top:650px;  
+        left:926px;
+    }
+}
+.history-container{
+        position:relative;
+        margin-top:0px;
+        background-color: rgb(244, 244, 244);
+        width: 100%;
+        height: 530px;
+        div{
+            text-transform: uppercase;
+            display:flex;
+            justify-content: center;
+            padding-top:130px;
+            font-size: 25px;
+            font-family: "Montserrat";
+            color: $dgray;
+            line-height: 1.2;
+        }
+        img{
+            @include centeredimages();
+            padding-top:45px;  
+        }
+            p{
+                padding-top:25px;
+                display:flex;
+                justify-content: center;
+                text-align:center;
+                font-size: 15px;
+                font-family: "CrimsonText";
+                color: $lgray;
+                line-height: 1.667;
+                white-space:pre;
+            }
+}
+.rectangles{
+    position:relative;
+    height: 500px;
+    width:100%;
+    display: flex;
+    .first-rectangle{
+         @include rectangles(320px,500px,black);
+    }
+    .white-rectangle{
+        @include rectangles(320px,500px,white);
+    }
+    .second-rectangle{
+        @include rectangles(320px,500px,black);
+        .blue-rectangle{  
+            @include rectangles(320px,350px,$blue-color);
+             margin-top:150px;
+            p{
+                padding-top:45px;
+                display:flex;
+                justify-content: center;
+                text-align:center;
+                line-height: 1.667;
+                white-space:pre;
+                font-size: 15px;
+                font-family: "CrimsonText";
+                color: rgb(255, 255, 255);
+             }
+            div{
+            display:flex;
+            justify-content: center;
+            text-transform:uppercase;
+            font-size: 15px;
+            font-family: "Montserrat";
+            color: rgb(255, 255, 255);
+            line-height: 1.2;
+            padding-top:75px;
+            }
+            .facebook-icon{
+                padding:35px 0px 0px 130px;
+            }
+            .twitter-icon{
+                padding: 35px 0px 0px 35px;
+            }
+        }
+       }
+    .third-rectangle{
+        @include rectangles(320px,500px,black)
+    }  
+}
+.services{   
+    width:100%;
+    background-color: rgb(244, 244, 244);
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .idea-rectangle{
+        @include rectangles(380px,390px,white);
+        margin-right:40px;
+        img{
+            @include centeredimages();
+        }
+        .pen{
+            padding-top:45px;
+        }
+        .separator{
+            padding-top:25px;
+        }
+        h1{
+            @include getH1();
+        }
+        p{
+               @include getP();
+        }
+
+    }
+    .work-rectangle{
+        @include rectangles(380px,390px,white);
+        margin-right:40px;
+        img{
+            @include centeredimages();
+         }
+         .plug{
+             padding-top:45px;
+         }
+         .separator{
+             padding-top:25px;
+         }
+         h1{
+             @include getH1();
+         }
+         p{
+            @include getP();
+         }
+ 
+    }
+    .deliver-rectangle{
+        @include rectangles(380px,390px,white);
+        img{
+            @include centeredimages();
+         }
+         .pc{
+             padding-top:45px;
+         }
+         .separator{
+             padding-top:25px;
+         }
+         h1{
+             @include getH1();
+         }
+         p{
+            @include getP();
+         }
+        }
+}
+.clients{
+    height:720px;
+    width:100%;
+    div{
+        text-transform: uppercase;
+        display:flex;
+        justify-content: center;
+        padding-top:130px;
+        font-size: 25px;
+        font-family: "Montserrat";
+        color: $dgray;
+        line-height: 1.2;
+    }
+    .separator{
+        @include centeredimages();
+        padding-top:40px;
+    }
+    .quote{
+        padding-top:20px;
+        text-align:center;
+        line-height: 1.667;
+        white-space:pre;
+        font-size: 15px;
+        font-family: "CrimsonText";
+        color:$dgray ;
+    }
+    .author{    
+            font-size: 15px;
+            font-family: "CrimsonText";
+            color: rgb(153, 153, 153);
+            font-style: italic;
+            line-height: 1.667;
+            text-align: center;
+    }
+    nav{
+        display:flex;
+        justify-content: center;
+        padding-top:100px;
+        margin-left:200px;
+       img{
+           margin-right:170px;
+       }
+    }
+}
+.contact-us{
+    width:100%;
+    height:600px;
+    background-color: $black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .about{
+        margin-right:40px;
+        width: 550px;
+        height:490px;
+        border:1px solid;
+        border-color:$gray ;
+       div{      
+                padding-top:80px;
+                text-transform: uppercase;
+                text-align: center;
+                font-size: 25px;
+                font-family: "Montserrat";
+                color: rgb(255, 255, 255);
+                line-height: 1.2;
+        }
+        img{
+            padding-top:50px;
+            display:block;
+            margin-left:auto;
+            margin-right: auto;
+
+        }
+        p{  
+            padding-top:50px;
+            text-align:center;
+            font-size: 15px;
+            font-family: "CrimsonText";
+            color: rgb(255, 255, 255);
+            line-height: 1.667;
+            white-space:pre;    
+        }
+    }
+    .contact{
+        margin-right:40px;
+        border:1px solid;
+        border-color:$gray ;
+        width: 550px;
+        height:490px;  
+        div{      
+            padding-top:80px;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 25px;
+            font-family: "Montserrat";
+            color: rgb(255, 255, 255);
+            line-height: 1.2;  
+    }
+      .email{
+            display:block;
+            padding-top:15px;
+            padding-left:70px;
+            text-transform: uppercase;
+            font-size: 15px;
+            font-family: "Montserrat";
+            color: rgb(255, 255, 255);
+            line-height: 1.2;
+      }
+      .email-input{
+        margin-left:70px;
+        margin-top:15px;
+        width:405px;  
+        border: none;
+        height:20px;
+        background-color: $black;
+        color: rgb(255, 255, 255);
+        border-bottom:1px solid rgb(255, 255, 255);
+        box-sizing: none;
+      }
+      .message{
+        display:block;
+        padding-top:60px;
+        padding-left:70px;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+      }
+      .message-input{
+          margin-left:70px;
+          margin-top:20px;
+          border: none;
+          background-color: $black;
+          color: rgb(255, 255, 255);
+          border-bottom:1px solid rgb(255, 255, 255);
+          box-sizing: none;
+    }
+    button{
+         text-transform: uppercase;
+         border:none;
+         background-color:$black ;
+         color:$blue-color;
+         font-size: 17px;
+         font-family: "Montserrat";
+         letter-spacing: 1px;
+         margin-top: 35px;
+         margin-left:425px;
+        cursor: pointer;
+    }
+}
+}
+.footer{
+    width:100%;
+    height:125px;
+    background-color: $blue-color;
+        div{
+            font-size: 15px;
+            font-family: "Montserrat";
+            color: rgb(255, 255, 255);
+            line-height: 1.5;
+           padding:50px 0px 0px 350px;   
+        }
+        nav{
+        display:flex;
+        justify-content: right;
+        float:right;
+        margin-right:340px;
+          img{
+              position:relative;
+              top:-20px;
+              padding-right:50px;
+          }
+        }
+}
+@import"./phone-responsive";
