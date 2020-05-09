@@ -19,8 +19,8 @@
           <div class="navbar-items">
             <ul >
                 <li><a class="home" href="#">HOME</a></li>
-                <li><a href="../Template7/Portofolio/portofolio.html">PORTOFOLIO</a></li>
-                <li><a href="../Template7/Services/service.html">SERVICES</a></li>
+                <li><a href="../DAW/Portofolio/portofolio.html">PORTOFOLIO</a></li>
+                <li><a href="../DAW/Services/service.html">SERVICES</a></li>
                 <li><a id="a-clients" href="#">CLIENTS</a></li>
                 <li><a id="a-contact" href="#">CONTACT</a></li>
             </ul>

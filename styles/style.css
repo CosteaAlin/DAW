@@ -775,7 +775,7 @@ body {
     width: 90%;
   }
   .clients nav {
-    margin: 0px;
+    margin: 50px;
   }
   .clients nav img {
     margin: 0px 0px 0px 28px;
@@ -797,6 +797,7 @@ body {
   }
   .footer {
     height: 90px;
+    background-color: red;
   }
   .footer div {
     padding: 35px 0px 0px 50px;

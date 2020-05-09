@@ -18,6 +18,7 @@
 {
     body{
         overflow-x: hidden;
+        
     }
     .navbar{
         flex-direction: column;
@@ -139,7 +140,7 @@
             width:90%;
           }
           nav{
-              margin:0px;
+            margin:50px;
               img{
                   margin:0px 0px 0px 28px;
               }
@@ -161,6 +162,7 @@
     }
     .footer{
         height: 90px;
+        background-color: red;
         div{
             padding:35px 0px 0px 50px;
         }
