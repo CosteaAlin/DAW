@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="Images/Favicon.png">
     <title>Template7</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link href="styles/style.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css"/>
 </head>
 <body>
       <div class="navbar">
@@ -126,16 +126,17 @@ Curabitur aliquet quam id dui posuere blandit. Donec rutrum
 conque leo eget malesuada. Vivamus suscipit tortor eget 
 felis porttitor voluptat. Vivamus suscipit tortor eget felis.</p>
           </div>
-          <form action="index.php"  method="post">
+          <form action="myphp.php" method="post">
             <div class="contact">
                 <div>contact us</div>
                    <label class="email">email</label>
-                   <input type="text" name="email-input" class="email-input">
+                   <input type="text" name="email-input" class="email-input" required><br>
                    <label class="message">message</label>
-                   <textarea class="message-input" name="message-input" rows="4" cols="55"></textarea><br>
-                  <button name="submit">send</button>
-                </div>
-            </div>    
+                   <textarea class="message-input" name="message-input" rows="4" cols="55" required></textarea><br>
+                  <button id="submit" name="submit">send</button>
+                  <p class="status"></p>
+            </div>
+        </div>    
           </form>
        <div class="footer">
            <div>@ 2015 - -Modus All Right Reserved</div>
@@ -145,8 +146,9 @@ felis porttitor voluptat. Vivamus suscipit tortor eget felis.</p>
             <img src="Images/Dribble.png"> 
            </nav>       
        </div>
-          <script src="jquery.js"></script>
-          <script src="script.js"></script>
+       <script src="jquery.js" type="text/javascript"></script>
+       <script src="script.js?v=<?php echo time(); ?>" type="text/javascript"></script>
+   
 </body>
 </html>
     

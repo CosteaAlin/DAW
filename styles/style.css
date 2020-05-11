@@ -555,7 +555,7 @@ body {
 
 .contact-us .contact .message {
   display: block;
-  padding-top: 60px;
+  padding-top: 40px;
   padding-left: 70px;
   text-transform: uppercase;
   font-size: 15px;
@@ -586,6 +586,18 @@ body {
   margin-top: 35px;
   margin-left: 425px;
   cursor: pointer;
+}
+
+.contact-us .contact .form-error {
+  font-size: 20px;
+  color: red;
+  margin-left: 180px;
+}
+
+.contact-us .contact .form-succes {
+  font-size: 20px;
+  color: green;
+  margin-left: 150px;
 }
 
 .footer {
